@@ -1,4 +1,7 @@
 readme.md:
-	touch readme.md
-	echo "#The gessing game" > readme.md
-	echo $(wc -l gessinggame.sh) 
+	echo "The guessing game" > readme.md
+	echo "El juego tiene las siguientes lienas de codigo"
+	wc -l guessinggame.sh >> readme.md
+	Este archivo se genero el dìa y hora:
+	date >> readme.md
+
