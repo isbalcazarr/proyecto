@@ -1,4 +1,5 @@
 readme.md:
+	touch readme.md
 	echo "The guessing game" > readme.md
 	echo "El juego tiene las siguientes lienas de codigo" > readme.md
 	wc -l guessinggame.sh >> readme.md
